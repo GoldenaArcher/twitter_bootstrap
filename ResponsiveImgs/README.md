@@ -33,3 +33,15 @@ The key code is:
 More details can be found in documentations, [Images](https://getbootstrap.com/docs/4.3/content/images/), [Borders](https://getbootstrap.com/docs/4.3/utilities/borders/).
 
 ## Embeded Content in a Webpage
+
+Html5 has `video` tag to insert videos into webpage, the with non-responsive videos, the problem remains the same - the size of videos cannot be adjusted to fit the screen by itself.
+
+The syntax is:
+
+```html
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="..." allowfullscreen></iframe>
+</div>
+```
+
+More details can be found in documentations, [Embeds](https://getbootstrap.com/docs/4.3/utilities/embed/#about).
